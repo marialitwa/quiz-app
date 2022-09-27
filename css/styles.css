@@ -14,6 +14,8 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
+  padding-top: 80px;
+  background-color: rgb(87, 183, 183);
 }
 
 h1 {
@@ -22,26 +24,94 @@ h1 {
 }
 
 header {
+  background-color: rgb(135, 199, 199);
   border-bottom: 5px solid black;
+  padding-bottom: 10px;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
-nav {
+.navigation {
   display: flex;
   justify-content: space-around;
-  border: 5px solid purple;
-  position: fixed;
+  background-color: rgb(135, 199, 199);
+  border-top: 3px solid black;
+  _position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-nav a img {
+.navigation a img {
+  border: 2px dashed yellow;
   width: 50px;
   margin: 5px;
 }
 
-/* a {
-  border: 2px solid yellow;
-} */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 25%;
+}
+
+.card-container__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid black;
+  box-shadow: 7px 7px 1px black;
+  padding: 10px;
+  margin: 20px;
+  width: 90%;
+  position: relative;
+  max-width: 300px;
+  height: 200px;
+  background-color: rgb(195, 243, 243);
+}
+
+.card-container--highlight {
+  background-color: rgb(233, 239, 246);
+}
+
+.question {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.hashtags {
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-start;
+  padding-top: 5px;
+}
+
+.hashtags__element {
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid black;
+}
+
+.hashtags--highlighter {
+  background-color: rgb(248, 238, 148);
+}
+
+.card-container button {
+  background-color: aquamarine;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.card-container img {
+  position: absolute;
+  top: -7px;
+  right: 3px;
+}
