@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(135, 199, 199);
+  border-top: 3px solid black;
+  _position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navigation a img {
+  _border: 2px dashed yellow;
+
+  width: 50px;
+  margin: 12px;
+}
