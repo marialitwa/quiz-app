@@ -1,0 +1,15 @@
+.card-container button {
+  background-color: aquamarine;
+  font-weight: 600;
+  padding: 11px;
+  border: none;
+  text-transform:uppercase;
+  text-
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.card-container button:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
