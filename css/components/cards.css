@@ -18,8 +18,8 @@
   margin: 20px;
   width: 90%;
   position: relative;
-  max-width: 350px;
-  height: 250px;
+  max-width: 400px;
+  height: 300px;
   background-color: rgb(195, 243, 243);
 }
 
@@ -32,6 +32,7 @@
   margin: 10px 50px 0px;
   text-align: center;
   font-weight: 400;
+  margin-top: 25px;
 }
 
 .hashtags {
